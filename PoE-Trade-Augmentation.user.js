@@ -19,7 +19,7 @@ const config = {
     subtree: true,
 };
 
-const called = false;
+let called = false;
 
 // Callback function to execute when mutations are observed
 const callback = function (mutationsList, observer) {
